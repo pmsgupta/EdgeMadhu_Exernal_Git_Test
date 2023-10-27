@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.madhu_exernal_git_test.integrations:DBConnector_Test
+  packages:
+  - name: EdgeMadhu_Exernal_Git_Test
+    version: "1.0"
 packages:
 - name: EdgeMadhu_Exernal_Git_Test
   gitServerName: Madhu_Github_Origin_Testing
